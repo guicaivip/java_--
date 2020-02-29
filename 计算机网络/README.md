@@ -15,3 +15,12 @@ ANSWER:
 第二次握手：服务器收到syn包,必须确认客户的SYN（ack=j+1）,同时自己也发送一个SYN包（syn=k）,即SYN+ACK包,此时服务器进入SYN_RECV状态；   
 第三次握手：客户端收到服务器的SYN＋ACK包,向服务器发送确认包ACK(ack=k+1),此包发送完毕,客户端和服务器进入ESTABLISHED状态,完成三次握手.  
 ![TCP的三次握手](http://blog.chinaunix.net/attachment/201304/8/22312037_1365405910EROI.png)  
+
+3. 输入域名发生了什么  
+
+ME:  
+---
++ 浏览器解析网址，获得URL  
++ DNS查找URL对应的IP地址  
+    + 检查浏览器缓存  
+    + 检查路由器缓存
