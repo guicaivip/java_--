@@ -37,4 +37,17 @@ ANSWER:
 ---  
 [输入一个网址后发生了什么](https://blog.csdn.net/kongmin_123/article/details/82555936)  
 
-## 4. 
+## 4. TCP的四次挥手  
+
+ME:
+---  
+第一次挥手：客户端向服务器发送FIN信号，并进入FIN-WAIT1状态  
+第二次挥手: 服务器向客户端发送FIN+ACK信号，并进入CLOSE-WAIT状态，客户端接收后进入FIN-WAIT2状态  
+第三次挥手：服务器再次发送FIN+ACK信号，并进入LASKT-ACK状态  
+第四次挥手：客户端发送ACK信号后，进入TIME-WAIT状态，等待2MSL后，关闭连接   
+
+ANSWER:  
+---  
+[TCP四次挥手过程](https://blog.csdn.net/O9A0MA/article/details/90731748)  
+![四次挥手](https://img-blog.csdnimg.cn/20190602181243782.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L085QTBNQQ==,size_16,color_FFFFFF,t_70)  
+
