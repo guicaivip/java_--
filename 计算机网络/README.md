@@ -4,7 +4,8 @@
 ![TCP的4层模型](https://img-blog.csdn.net/20180930155137505?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NzZG5fa291/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)  
 
 2. TCP的三次握手  
-ME:  
+
+ME:
 ---  
 客户端会先给服务器发送一个SYN信号，服务器在收到之后会回传一个SYN+ACK的信号，最后客户端回复ACK信号，双方正式建立连接。  
 
