@@ -51,3 +51,16 @@ ANSWER:
 [TCP四次挥手过程](https://blog.csdn.net/O9A0MA/article/details/90731748)  
 ![四次挥手](https://img-blog.csdnimg.cn/20190602181243782.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L085QTBNQQ==,size_16,color_FFFFFF,t_70)  
 
+## 5. TCP的拥塞控制  
+
+ME:  
+---  
++ 慢开始：发送端在发送数据时，会先从一个报文段开始发送，之后指数增长，直到达到慢开始门限。  
++ 拥塞避免：达到慢开始门限之后，发送端会一个一个报文段的增加，如果发生拥塞情况，会将慢开始门限设定为当前报文段的一半。  
++ 快重传：当发送端连续收到3个重复确认时，发送端会直接重发报文，而不是等待报文超时。  
++ 快恢复：当发送端收到3个重复确认后，把慢开始门限减半，直接进行拥塞避免算法。  
+
+ANSWER：  
+---  
+[TCP拥塞控制](https://www.cnblogs.com/wuquaaa/p/11953352.html)  
+
