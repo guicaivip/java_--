@@ -64,3 +64,16 @@ ANSWER：
 ---  
 [TCP拥塞控制](https://www.cnblogs.com/wuquaaa/p/11953352.html)  
 
+## 6. HTTP 2.0 和 HTTP1.1 的区别
+
+ME:  
+---  
+http2.0比http1.1增加了三个功能:  
++ 增加了多路复用功能；  
++ 头部数据压缩；  
++ 服务器推送。  
+
+ANSWER:  
+---  
+[http2.0和http1.1的区别](https://blog.csdn.net/tugangkai/article/details/88729171)  
+
