@@ -77,3 +77,20 @@ ANSWER:
 ---  
 [http2.0和http1.1的区别](https://blog.csdn.net/tugangkai/article/details/88729171)  
 
+## 7. tcp和udp区别  
+
+ME:  
+---  
++ TCP是面向流传输的，UDP是面向报文传输的；    
++ TCP可靠(序号+ack+重传)，UDP不可靠；  
++ TCP会建立连接，一对一传输，UDP不需要建立连接，可以多对多传输；  
++ TCP有拥塞控制，UDP没有；  
++ TCP首部报文长20字节，UDP首部报文长8字节；  
++ TCP传输速度慢于UDP； 
++ TCP有序，UDP无序；     
++ TCP适合的场景对准确性要求较高，如邮件传输等；  
++ UDP适合的场景对速度要求较高，如视频通话，直播等。  
+
+ANSWER:  
+---  
+[TCP和UDP的区别](https://www.cnblogs.com/williamjie/p/9390164.html)  
