@@ -9,7 +9,7 @@ ME:
 
 ANSWER:  
 ---  
-(ArrayList && LinkedList)[https://www.cnblogs.com/zjss/p/5232048.html]  
+[ArrayList && LinkedList](https://www.cnblogs.com/zjss/p/5232048.html)  
 
 ## 2. HashMap的底层实现  
 
@@ -20,7 +20,7 @@ jdk1.8之后：数组+链表+红黑树(链表长度>=8)，采用尾插法的方�
 
 ANSWER:  
 ---  
-(HashMap底层实现和原理)[https://blog.csdn.net/qq_41345773/article/details/92066554]  
+[HashMap底层实现和原理](https://blog.csdn.net/qq_41345773/article/details/92066554)  
 
 ## 3. HashMap如何解决哈希冲突
 
