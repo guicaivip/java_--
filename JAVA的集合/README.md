@@ -42,3 +42,13 @@ ANSWER:
 ---  
 [为什么要重写hashCode()和equals()方法](https://www.cnblogs.com/xinghaonan/p/11933378.html)  
 
+## 5. ConcurrentHashMap，1.8中怎么实现线程安全  
+
+ME:  
+---  
+node + volatile + CAS + synchronized  
+
+ANSWER:  
+---  
+[ConcurrentHashMap 1.8中怎么实现线程安全](https://www.cnblogs.com/junjiang3/p/8686290.html)  
+
