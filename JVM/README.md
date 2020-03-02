@@ -47,3 +47,18 @@ ANSWER:
 ---  
 [类加载机制](https://www.cnblogs.com/jsersudo/p/10179082.html)  
 
+## 4. 双亲委派机制  
+
+ME:  
+---  
+java类的加载器有4类：  
++ bootstrp loader  
++ extClassLoader  
++ AppClassLoader  
++ 自定义类加载器  
+java在加载类时会先把请求委派给父类加载器，如果加载不成功，则交给子类处理。  
+
+ANSWER:  
+---  
+[什么是双亲委派机制？](https://www.cnblogs.com/SuperManer/p/11935948.html)  
+
