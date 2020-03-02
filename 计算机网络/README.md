@@ -94,3 +94,16 @@ ME:
 ANSWER:  
 ---  
 [TCP和UDP的区别](https://www.cnblogs.com/williamjie/p/9390164.html)  
+
+## 8. http和https区别  
+
+ME:  
+---  
+# HTTP使用80端口，HTTPS使用443端口；  
+# HTTP明文传输，HTTPS加密传输（对称加密+非对称加密）HTTP+SSL/TLS  
+# HTTPS使用前需要向CA申请证书，相当耗钱。  
+
+ANSWER:  
+---  
+[http和https区别](https://www.leiue.com/http-vs-https)  
+
