@@ -52,3 +52,13 @@ ANSWER:
 ---  
 [ConcurrentHashMap 1.8中怎么实现线程安全](https://www.cnblogs.com/junjiang3/p/8686290.html)  
 
+## 6. set原理  
+
+ME:  
+---  
+set底层实现是用hashmap实现的，key值保存要存储的值，value值为随便一个值，因此set只能保存一个值，不能保存重复的数值。  
+
+ANSWER:  
+---  
+[Java Set类](https://www.jianshu.com/p/3950f64821a6)  
+
