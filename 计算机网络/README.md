@@ -111,3 +111,10 @@ ANSWER:
 
 ME:  
 ---  
++ cookies是客户端保存消息的一种方式，session是服务器保存消息的一种方式。  
++ cookie不安全，可以进行cookie欺骗，session比较安全  
++ session保存在服务器上，大量的session会造成服务器性能方面的问题。  
+
+ANSWER:  
+---  
+[Cookie和Session的区别](https://www.jianshu.com/p/2f7031a69f43)  
