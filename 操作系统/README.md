@@ -13,3 +13,17 @@ ANSWER:
 ---  
 [进程与线程的区别](https://www.jianshu.com/p/2dc01727be45)  
 
+## 2. 进程和线程的通信方式  
+
+ME:  
+---  
++ 共享内存  
++ 管道  
++ 消息队列  
++ 套接字  
++ 信号量  
+
+ANSWER:  
+---  
+[进程与线程之间的通信方式](https://www.jianshu.com/p/4d85139eec31)  
+
