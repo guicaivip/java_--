@@ -62,3 +62,15 @@ ANSWER:
 ---  
 [Java Set类](https://www.jianshu.com/p/3950f64821a6)  
 
+## 7. Hashmap中的get和put  
+
+ME:  
+---  
++ put  
+hashmap会先将key值计算哈希之后，与桶的长度取余，在编号为余数的桶中去放入数据，如果里面没有数据，直接放入key-value；如果存在数据，判断key是否相等，相等则更新，不相等则采用头插法或者尾插法的方式往链表中插入数据。  
++ get  
+hashamp使用get方法时，会先对key值计算哈希取余之后，和对应桶中的数据进行比较，key相等，返回value，负责遍历链表，找到相同的key，返回value,没有返回null。  
+
+ANSWER:  
+---  
+[Java中HashMap的put与get方法原理](https://www.cnblogs.com/kangkaii/p/8473793.html)  
