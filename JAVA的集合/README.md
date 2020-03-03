@@ -74,3 +74,13 @@ hashamp使用get方法时，会先对key值计算哈希取余之后，和对应�
 ANSWER:  
 ---  
 [Java中HashMap的put与get方法原理](https://www.cnblogs.com/kangkaii/p/8473793.html)  
+
+## 8. set list区别  
+
+ME:  
+---  
++ set中的元素无序且不重复，而list中的数据可以重复且有序；  
+
+ANSWER:  
+---  
+[Java中的list和set有什么区别](https://www.cnblogs.com/q2546/p/11394723.html)  
