@@ -25,4 +25,14 @@ ANSWER:
 ---  
 [自旋锁到底是什么](https://www.jianshu.com/p/9d3660ad4358?utm_source=oschina-app)  
 
-## 3. 
+## 3. Java的Synchronized锁的是什么东西？  
+
+ME:  
+---  
+方法锁锁的是调用这个方法的对象；  
+代码块锁的是指定的对象；  
+类锁锁的是类对象。  
+
+ANSWER:  
+---  
+[Java synchronized到底锁住的是什么？](https://www.cnblogs.com/LearnAndGet/p/9365752.html)  
