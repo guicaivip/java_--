@@ -132,3 +132,13 @@ ANSWER:
 ---  
 [get/post请求区别](https://www.cnblogs.com/wgyi140724-/p/10577053.html)  
 
+## 11. HTTP保持长连接  
+
+ME:  
+---  
+HTTP首部中可以设置Connection:keep-alive,设置过期时间Keep-Alive: timeout=60。  
+
+ANSWER:  
+---  
+[HTTP保持长连接](https://www.cnblogs.com/kabi/p/7693500.html)  
+
