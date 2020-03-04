@@ -25,3 +25,14 @@ ANSWER:
 ---  
 [Java抽象类和接口](https://www.cnblogs.com/Jordandan/p/11199405.html)  
 
+## 3. string stringbuffer区别
+
+ME:  
+---  
++ string是final类，里面的数组是final修饰的，一旦赋值之后不可以修改。  
++ stringBuffer里面的值可以进行改变，并且stringBuffer类是线程安全的。  
+
+ANSWER:  
+---  
+[String,StringBuffer与StringBuilder的区别](https://blog.csdn.net/TTTZZZTTTZZZ/article/details/84892985)  
+
