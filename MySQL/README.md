@@ -107,3 +107,13 @@ ANSWER:
 ---  
 [索引何时需要、何时不需要、何时失效](https://www.cnblogs.com/yanze/p/11045642.html)  
 
+
+## 10. 慢sql怎么处理  
+
+ME:  
+---  
+慢sql可以使用慢查询日志，然后对里面的sql语句使用explain分析，分析是否使用了索引。  
+
+ANSWER:  
+---  
+[如何分析Mysql慢SQL](https://www.cnblogs.com/linyue09/p/9869163.html)  
