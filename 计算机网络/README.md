@@ -118,3 +118,17 @@ ME:
 ANSWER:  
 ---  
 [Cookie和Session的区别](https://www.jianshu.com/p/2f7031a69f43)  
+
+## 10. POST/GET请求  
+
+ME:  
+---  
++ GET请求参数在url中，？隔开格式为url？k=v&k=v；POST请求在请求体中。  
++ GET参数有长度限制，POST无长度限制。  
++ GET只能是ASCII编码，POST可以是任意编码。  
++ GET不安全，POST安全。  
+
+ANSWER:  
+---  
+[get/post请求区别](https://www.cnblogs.com/wgyi140724-/p/10577053.html)  
+
