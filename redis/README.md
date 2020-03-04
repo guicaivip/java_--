@@ -39,3 +39,14 @@ redis持久化有两种方式，rdb和aof。
 ANSWER:  
 ---  
 [Redis持久化](https://blog.csdn.net/tiantang_1986/article/details/90695952)  
+
+## 4. 缓存雪崩和缓存穿透  
+
+ME:  
+---  
++ 缓存雪崩是指redis中大量的缓存同时过了有限期，同时失效，这时所有的查询都会直接进入数据库查询，导致数据库短时间之后响应大量的请求。  
++ 缓存穿透是指故意查询数据库中没有的数据，自然不会保存在缓存中，因此查询会直接向数据库申请。  
+
+ANSWER:  
+---  
+[缓存穿透、缓存击穿、缓存雪崩区别和解决方案](https://blog.csdn.net/kongtiao5/article/details/82771694)  
