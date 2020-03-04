@@ -42,3 +42,13 @@ ANSWER:
 ---  
 [死锁概念？](https://blog.csdn.net/baidu_33604078/article/details/78156152)  
 
+
+## 4. LRU用什么数据结构  
+
+ME:  
+---  
+LRU使用的数据结构是双向链表+哈希表
+
+ANSWER:  
+---  
+[LRU Cache数据结构简介](https://www.cnblogs.com/XP-Lee/p/3441555.html)  
