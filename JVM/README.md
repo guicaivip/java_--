@@ -62,3 +62,32 @@ ANSWER:
 ---  
 [什么是双亲委派机制？](https://www.cnblogs.com/SuperManer/p/11935948.html)  
 
+## 5. 什么是内存泄漏？哪些情况造成内存泄漏？  
+
+ME:  
+---  
+内存泄露是指一些无用的对象无法被GC回收。  
++ 静态集合类。    
++ 监听器。  
++ 连接未释放。  
+
+ANSWER:  
+---  
+[java中是否存在内存泄漏？什么情况下才是内存泄漏？](https://blog.csdn.net/qq_44941119/article/details/97008877)  
+
+## 6. JVM内存结构  
+
+ME:  
+---  
+1.7以前:  
++ 堆  
++ 方法区  
++ 虚拟机栈  
++ 本地方法栈  
++ 程序计数器  
+
+1.8之后将方法区变成了元数据区， 元数据区使用的是本地内存，而不是堆内存。  
+
+ANSWER:  
+---  
+[JVM内存结构](https://blog.csdn.net/rongtaoup/article/details/89142396)  
