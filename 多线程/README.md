@@ -36,3 +36,17 @@ ME:
 ANSWER:  
 ---  
 [Java synchronized到底锁住的是什么？](https://www.cnblogs.com/LearnAndGet/p/9365752.html)  
+
+## 4. wait sleep区别  
+
+ME:  
+---  
++ wait是object的方法，sleep是thead类的方法；  
++ wait会释放锁资源，sleep不会释放锁资源；  
++ sleep必须传入参数，wait可以传入参数，也可以不传参数；  
++ wait必须在同步块或同步方法中使用，sleep可以在任何地方使用；  
++ wait可以不捕获异常，sleep必须捕获异常。  
+
+ANSWER:  
+---  
+[sleep和wait的区别](https://www.jianshu.com/p/c83a119ef54a)  
