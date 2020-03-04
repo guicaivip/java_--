@@ -84,3 +84,13 @@ ME:
 ANSWER:  
 ---  
 [Java中的list和set有什么区别](https://www.cnblogs.com/q2546/p/11394723.html)  
+
+## 9. 数组怎么实现对象排序  
+
+ME:  
+---  
+java的数组实现对象排序，可以实现comparable类，重写compareTo(Object o)方法,或者实现comparator类，重写compare(Object o1, Object o2)方法，然后使用Arrays.sort()方法排序。  
+
+ANSWER:  
+---  
+[如何在Java中对对象数组进行排序？](http://www.imooc.com/wenda/detail/581283)  
