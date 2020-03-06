@@ -50,3 +50,16 @@ ME:
 ANSWER:  
 ---  
 [缓存穿透、缓存击穿、缓存雪崩区别和解决方案](https://blog.csdn.net/kongtiao5/article/details/82771694)  
+
+## 5. redis为什么快？  
+
+ME:  
+---  
++ redis是内存数据库，查询数据时不进入磁盘查询，减少了IO次数；  
++ redis是单线程数据库  
++ redis数据结构简单  
+
+ANSWER:  
+---  
+[redis为什么快](https://segmentfault.com/a/1190000017375843)  
+
