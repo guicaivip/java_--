@@ -142,3 +142,13 @@ ANSWER:
 ---  
 [HTTP保持长连接](https://www.cnblogs.com/kabi/p/7693500.html)  
 
+## 12. HTTP请求包含的部分  
+
+ME:  
+---  
+http请求包含请求行，请求头，空行，请求数据
+
+ANSWER:  
+---  
+[HTTP请求包含的部分](https://www.cnblogs.com/sweeeper/p/11243756.html)  
+
